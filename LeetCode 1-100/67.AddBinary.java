@@ -1,4 +1,5 @@
 class Solution {
+    
     public String addBinary(String a, String b) {
         StringBuffer sb = new StringBuffer();
         int i = a.length() - 1;
