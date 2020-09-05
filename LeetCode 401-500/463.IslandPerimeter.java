@@ -23,4 +23,5 @@ class Solution {
         if((j-1 >=0 && grid[i][j-1] == 0) || j == 0)perimeter++;
         if((j+1< grid[0].length && grid[i][j+1] == 0) || j == grid[0].length-1)perimeter++;
     }
+    
 }
