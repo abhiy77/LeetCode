@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     
     public boolean isValidBST(TreeNode root) {
@@ -31,6 +32,5 @@ class Solution {
         if(lower != null && node.val >= lower)return false;
         if(upper != null && node.val <= upper) return false;
         return true;
-    }
-    
+    }   
 }
