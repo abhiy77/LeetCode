@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<String> commonChars(String[] A) {
         int count[] = new int[26];
 
