@@ -1,4 +1,5 @@
 class Solution {
+    
     public int mySqrt(int x) {
         long left = 0,right = x,ans = 0;
         if(x == 0 || x == 1) return x;
