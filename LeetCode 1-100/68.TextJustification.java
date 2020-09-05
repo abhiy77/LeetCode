@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> result = new LinkedList<>();
         int curr = 0;
