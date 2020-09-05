@@ -1,4 +1,5 @@
 class Solution {
+    
     public int longestOnes(int[] A, int k) {
         int n = A.length;
         if(n == 0)return 0;
