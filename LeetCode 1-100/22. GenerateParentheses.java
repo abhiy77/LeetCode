@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<>();
         findCombinations(list,"",0,0,n);
