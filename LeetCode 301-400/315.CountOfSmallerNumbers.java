@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<Integer> countSmaller(int[] nums) {
         if(nums.length == 0)return new ArrayList<>();
     
