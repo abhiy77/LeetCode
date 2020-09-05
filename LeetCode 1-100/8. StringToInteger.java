@@ -48,7 +48,6 @@ class Solution {
             
             pos+=1;
         }
-         
         return (int) num;
     }
 }
