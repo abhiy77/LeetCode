@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[] sortArrayByParity(int[] A) {
         if(A.length == 1) return A;
         int i = 0, j = A.length - 1;
@@ -14,4 +15,5 @@ class Solution {
         }
         return A;
     }
+    
 }
