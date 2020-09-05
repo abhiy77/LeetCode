@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean checkPossibility(int[] nums) {
         int change = 1;
         int idx = 0;
