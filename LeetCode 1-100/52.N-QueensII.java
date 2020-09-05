@@ -1,4 +1,5 @@
 class Solution {
+    
     public int totalNQueens(int n) {
         List<List<String>> list = new LinkedList<>();
          boolean[][] visited = new boolean[n][n]; 
