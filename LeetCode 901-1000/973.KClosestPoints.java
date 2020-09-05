@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[][] kClosest(int[][] points, int K) {
         int n = points.length;
         int dist[] = new int[n];
@@ -21,4 +22,5 @@ class Solution {
     public int calculateDist(int[] point){
         return point[0] * point[0] + point[1] * point[1];
     }
+    
 }
