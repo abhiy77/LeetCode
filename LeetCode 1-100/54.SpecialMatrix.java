@@ -19,6 +19,7 @@ class Solution {
             r2--;
             c2--;
         }
+        
         return result;
     }
 }
