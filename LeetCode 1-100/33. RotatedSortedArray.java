@@ -1,4 +1,5 @@
 class Solution {
+    
     public int search(int[] nums, int target) {
         if(nums.length == 0) return -1;
         int i = 0,j=nums.length-1;
