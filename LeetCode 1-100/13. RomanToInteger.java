@@ -18,18 +18,18 @@ class Solution {
         put("CM", 900);
     }};
     
-        int result = 0;
+        int ans = 0;
         for (int i = 0; i < s.length(); i++) {
             if (i + 1 < s.length()) {
                 String twoChars = s.substring(i, i + 2);
                 if (romanMap.containsKey(twoChars)) {
-                    result += romanMap.get(twoChars);
+                    ans += romanMap.get(twoChars);
                     i++; 
                     continue;
                 }
             }    
-            result += romanMap.get(Character.toString(s.charAt(i)));
+            ans += romanMap.get(Character.toString(s.charAt(i)));
         }    
-        return result;
+        return ans;
     }
 }
