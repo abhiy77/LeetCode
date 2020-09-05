@@ -1,4 +1,5 @@
 class Solution {
+    
     public int findMin(int[] nums) {
         int n = nums.length;
         int low = 0, high = n-1;
@@ -14,4 +15,5 @@ class Solution {
         }
         return nums[low];        
     }
+    
 }
