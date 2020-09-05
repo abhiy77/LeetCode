@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[][] generateMatrix(int n) {
         int count = 1;
         int arr[][] = new int[n][n];
