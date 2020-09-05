@@ -1,4 +1,5 @@
 class Solution {
+    
     class Pos {
         public int val;
         public int i;
