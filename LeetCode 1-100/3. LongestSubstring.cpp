@@ -1,4 +1,5 @@
 class Solution {
+    
 public:
     int lengthOfLongestSubstring(string s) {
        int n = s.length(),result = 0;
