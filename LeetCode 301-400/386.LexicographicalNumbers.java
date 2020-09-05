@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<Integer> lexicalOrder(int n) {
         List<Integer> nums = new LinkedList<>();
         PriorityQueue<String> queue = new PriorityQueue<>((a,b)->a.compareTo(b));
