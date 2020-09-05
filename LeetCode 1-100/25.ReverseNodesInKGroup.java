@@ -1,4 +1,3 @@
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -7,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode curr = head, prev = null,next = null;
