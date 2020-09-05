@@ -1,4 +1,5 @@
 class Solution {
+    
     public int numUniqueEmails(String[] emails) {
         Set<String> emailSet = new HashSet<>();
         for(String email : emails){
@@ -14,4 +15,5 @@ class Solution {
         }
         return emailSet.size();
     }
+    
 }
