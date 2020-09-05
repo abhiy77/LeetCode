@@ -13,7 +13,9 @@
  *     }
  * }
  */
+
 class Solution {
+    
     int ans;
     public int rangeSumBST(TreeNode root, int L, int R) {
         ans = 0;
@@ -33,4 +35,5 @@ class Solution {
             recurse(node.right,L,R);
         }
     }
+    
 }
