@@ -1,4 +1,5 @@
 class Solution {
+    
     public int jump(int[] nums) {
         int i = 0;
         int step = 0;
