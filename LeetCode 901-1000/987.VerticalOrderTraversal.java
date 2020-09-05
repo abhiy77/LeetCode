@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         TreeMap<Integer,List<Coor>> map = new TreeMap<>();
