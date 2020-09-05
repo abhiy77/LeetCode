@@ -6,7 +6,8 @@ class Solution {
         int left = 0 ,right = n-1;
         
         while(left < right){
-    water = Math.max(water,Math.min(height[left],height[right]) * (right-left));
+            water = Math.max(water,Math.min(height[left],height[right]) * (right-left));
+            
             if(height[left] < height[right]){
                 left++;
             }
