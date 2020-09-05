@@ -1,4 +1,5 @@
 class Solution {
+    
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0 || strs == null) return "";
         
@@ -12,4 +13,5 @@ class Solution {
         }
         return strs[0];
     }
+    
 }
