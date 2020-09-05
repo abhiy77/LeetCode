@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<String> findWords(char[][] board, String[] words) {
         List<String> result = new LinkedList<>();
         for(int k=0;k<words.length;k++){
@@ -49,6 +50,4 @@ class Solution {
         }
         return false;  
     }
-    
-    
 }
