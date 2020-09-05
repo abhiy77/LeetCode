@@ -1,4 +1,5 @@
 class Solution {
+	
     public void solveSudoku(char[][] board) {
         sudokuSolver(board);
         printBoard(board);
@@ -61,4 +62,5 @@ class Solution {
             System.out.println();
         }
     }
+	
 }
