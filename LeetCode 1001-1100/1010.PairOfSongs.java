@@ -1,4 +1,5 @@
 class Solution {
+    
     public int numPairsDivisibleBy60(int[] time) {
         int n = time.length;
         if(n == 0)return 0;
