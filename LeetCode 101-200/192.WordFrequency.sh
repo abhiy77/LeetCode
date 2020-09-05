@@ -1,4 +1,5 @@
 # Read from the file words.txt and output the word frequency list to stdout.
+
 #!/bin/bash
 many=$(sed 's/ /\n/g' words.txt)
 for word in $(printf "$many" | sort -u)
