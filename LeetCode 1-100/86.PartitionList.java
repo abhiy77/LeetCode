@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 class Solution {
     public ListNode partition(ListNode head, int x) {
         if(head == null || head.next == null) return head;
