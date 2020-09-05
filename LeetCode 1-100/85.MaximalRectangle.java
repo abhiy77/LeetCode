@@ -1,6 +1,7 @@
 class Solution {
     
     int maxArea = 0;
+    
     public int maximalRectangle(char[][] matrix) { 
         if(matrix.length == 0 || matrix[0].length == 0) return 0;
         int temp[] = new int[matrix[0].length];
