@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[] sortedSquares(int[] A) {
         if(A.length == 0)return null;
         int n = A.length;
@@ -21,4 +22,5 @@ class Solution {
         }
         return arr;
     }
+    
 }
