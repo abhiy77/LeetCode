@@ -18,7 +18,8 @@ class Solution {
             }
         }
 				
-		boolean dp[][] = new boolean[str.length+1][writeIndex+1];
+	boolean dp[][] = new boolean[str.length+1][writeIndex+1];
+	    
         if(writeIndex> 0 && pattern[0] == '*') dp[0][1] = true;
 
 		dp[0][0] = true;
@@ -33,6 +34,6 @@ class Solution {
 				}
 			}
 		}
-		return dp[str.length][writeIndex];
+	return dp[str.length][writeIndex];
     }
 }
