@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean isNumber(String s) {
         s = s.trim();
         if(s.isEmpty()) return false;
