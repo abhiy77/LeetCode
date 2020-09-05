@@ -1,4 +1,5 @@
 class Solution {
+    
     public int nextGreaterElement(int n) {
         char num[] = Integer.toString(n).toCharArray();
         int len = num.length;
@@ -36,4 +37,5 @@ class Solution {
         long max = Integer.MAX_VALUE;
         return (l > max ? -1 : Integer.parseInt(sb.toString()));
     }
+    
 }
