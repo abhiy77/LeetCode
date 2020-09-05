@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean isHappy(int n) {
         LinkedList<Integer> list = new LinkedList<>();
         list.add(n);
