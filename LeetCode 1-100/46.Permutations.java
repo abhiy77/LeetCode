@@ -1,4 +1,5 @@
 class Solution {
+	
     public List<List<Integer>> permute(int[] nums) {
 
         LinkedList<List<Integer>> result = new LinkedList<List<Integer>>();
@@ -12,7 +13,6 @@ class Solution {
     }
     
    public static void dfs(LinkedList<List<Integer>> result, LinkedList<Integer> list, int[] nums,int i,int count) {
-	//	System.out.println(count + " :: "+list);
 		if(count == nums.length) {
 			HashSet<Integer> set = new HashSet<>(list);
 			if(set.size() == nums.length && !result.contains(set)) {
