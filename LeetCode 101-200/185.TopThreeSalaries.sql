@@ -12,4 +12,4 @@ WHERE 3 >
      FROM 
         Employee e2 
      WHERE
-         e2.Salary > e1.Salary AND e1.DepartmentId = e2.DepartmentId);
+        e2.Salary > e1.Salary AND e1.DepartmentId = e2.DepartmentId);
