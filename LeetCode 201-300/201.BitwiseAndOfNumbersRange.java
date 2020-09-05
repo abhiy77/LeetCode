@@ -1,4 +1,5 @@
 class Solution {
+    
     public int rangeBitwiseAnd(int m, int n) {
         int i = 0;
         while(m != n){
