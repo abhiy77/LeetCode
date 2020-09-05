@@ -1,4 +1,5 @@
 class Solution {
+    
     public String simplifyPath(String path) {
         String directories[] = path.split("/");
         Stack<String> stack = new Stack<>();
