@@ -1,4 +1,5 @@
 class Solution {
+    
     public int maxProduct(int[] arr) {
         if(arr.length == 0)return 0;
         if(arr.length ==1)return arr[0];
@@ -49,4 +50,5 @@ class Solution {
         }
         return (flag == 0 && max == 1) ? 0 : max;
     }
+    
 }
