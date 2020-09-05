@@ -1,4 +1,5 @@
 class Solution {
+    
     public int fib(int N) {
         if(N <= 1)return N;
         if(N == 2)return 1;
@@ -13,4 +14,5 @@ class Solution {
         }
         return second;
     }
+    
 }
