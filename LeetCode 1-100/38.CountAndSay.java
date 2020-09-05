@@ -1,4 +1,5 @@
 class Solution {
+    
     public String countAndSay(int n) {
     
     StringBuffer res = new StringBuffer("1");
