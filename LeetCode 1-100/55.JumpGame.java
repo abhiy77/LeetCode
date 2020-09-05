@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean canJump(int[] nums) {
         int n = nums.length;
         int lastPos = n-1;
@@ -10,4 +11,5 @@ class Solution {
         }
         return lastPos == 0;
     }
+    
 }
