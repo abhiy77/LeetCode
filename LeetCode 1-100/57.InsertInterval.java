@@ -1,4 +1,5 @@
 public class Solution {
+    
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> list = new LinkedList<>();
         int flag = 0;
