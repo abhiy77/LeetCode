@@ -1,4 +1,5 @@
 class Solution {
+    
     public int numJewelsInStones(String J, String S) {
         int count = 0;
         int n = S.length();
