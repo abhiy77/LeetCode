@@ -1,7 +1,8 @@
 class Solution {
+    
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         
-        if(t < 0)return false;
+        if(t < 0) return false;
         
         TreeSet<Long> set = new TreeSet<>();
         
@@ -16,4 +17,5 @@ class Solution {
         }
         return false;
     }
+    
 }
