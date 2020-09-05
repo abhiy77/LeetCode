@@ -5,6 +5,7 @@ class Solution {
         nums[a] = nums[b];
         nums[b] = temp;
     }
+    
     public void nextPermutation(int[] nums) {
         int swapIndex = -1;
         for(int i=nums.length-2;i>=0;i--){
@@ -23,4 +24,5 @@ class Solution {
         swap(nums,swapIndex,min);
         Arrays.sort(nums,swapIndex+1,nums.length);
     }
+    
 }
