@@ -1,4 +1,5 @@
-class Solution {
+class Solution 
+    
     HashMap<String,Boolean> map = new HashMap<>();
     
     public List<List<String>> partition(String s) {
