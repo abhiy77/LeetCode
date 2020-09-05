@@ -1,4 +1,5 @@
 class Solution {
+    
     public int calculateMinimumHP(int[][] dungeon) {
         int m = dungeon.length;
         int n = dungeon[0].length;
@@ -17,4 +18,5 @@ class Solution {
             return dp[i][j] = Math.max(1,findMinHealth(dp,i+1,j,a) - a[i][j]);
         return dp[i][j] = Math.max(1,Math.min(findMinHealth(dp,i+1,j,a),findMinHealth(dp,i,j+1,a)) - a[i][j]);
     }
+    
 }
