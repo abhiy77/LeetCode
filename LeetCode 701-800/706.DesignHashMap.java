@@ -21,6 +21,7 @@ class MyHashMap {
     public void remove(int key) {
         arr[key] = -1;
     }
+    
 }
 
 /**
