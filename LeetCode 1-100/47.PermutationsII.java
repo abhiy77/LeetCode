@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<Integer> input = Arrays.stream(nums).boxed().collect(Collectors.toList());
         List<List<Integer>> result = new LinkedList<>();
