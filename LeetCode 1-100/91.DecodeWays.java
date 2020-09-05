@@ -1,4 +1,5 @@
 class Solution {
+    
     public int numDecodings(String s) {
         int[] dp = new  int[s.length()+1];
         dp[0] = 1;
@@ -17,4 +18,5 @@ class Solution {
         }
         return dp[s.length()];
     }
+    
 }
