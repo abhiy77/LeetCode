@@ -13,6 +13,7 @@
  *     }
  * }
  */
+
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         if(root == null)return new ArrayList<>();
