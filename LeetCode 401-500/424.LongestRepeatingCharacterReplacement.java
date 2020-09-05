@@ -1,4 +1,5 @@
 class Solution {
+    
     public int characterReplacement(String s, int k) {
         int n = s.length();
         if(n == 0)return 0;
