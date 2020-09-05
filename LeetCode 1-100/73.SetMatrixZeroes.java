@@ -1,4 +1,5 @@
 class Solution {
+    
     public void setZeroes(int[][] matrix) {
         boolean row[] = new boolean[matrix.length];
         boolean col[] = new boolean[matrix[0].length];
@@ -18,7 +19,6 @@ class Solution {
                     matrix[i][j] = 0;
                 }
             }
-        }
-        
+        }    
     }
 }
