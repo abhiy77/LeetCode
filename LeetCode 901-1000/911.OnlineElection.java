@@ -1,4 +1,5 @@
 class TopVotedCandidate {
+    
     List<Vote> A;
     public TopVotedCandidate(int[] persons, int[] times) {
         A = new ArrayList();
@@ -31,7 +32,6 @@ class TopVotedCandidate {
             else
                 hi = mi;
         }
-
         return A.get(lo - 1).person;
     }
 }
