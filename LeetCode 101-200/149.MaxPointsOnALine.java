@@ -1,4 +1,5 @@
 class Solution {
+    
     public int maxPoints(int[][] points) {
         int n = points.length;
         if(n < 2)return n;
