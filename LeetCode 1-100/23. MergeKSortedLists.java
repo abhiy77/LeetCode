@@ -6,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
          ListNode head = new ListNode(0);
