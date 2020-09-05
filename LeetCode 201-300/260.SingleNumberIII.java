@@ -1,4 +1,5 @@
 class Solution {
+    
     public int[] singleNumber(int[] nums) {
         if(nums.length <= 2) return nums;
         int n = nums.length;
