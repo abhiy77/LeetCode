@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean stoneGame(int[] piles) {
         int N = piles.length;
 
@@ -16,8 +17,6 @@ class Solution {
         return dp[1][N] > 0;
     }
 }
-
-
 
 # SOLUTION 2 :
 
